@@ -14,6 +14,7 @@ export const PersonForm = () => {
     }
     return (
         <>
+            <h3>Person Form</h3>
             <input onChange={handleInputChange} name="firstName" value={formValues.firstName} />
             <input onChange={handleInputChange} name="lastName" value={formValues.lastName} />
         </>
